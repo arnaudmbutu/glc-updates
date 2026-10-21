@@ -1,0 +1,5 @@
+/latest.json
+  Cache-Control: no-store
+/*.apk
+  Content-Type: application/vnd.android.package-archive
+  X-Content-Type-Options: nosniff
