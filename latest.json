@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "applicationId": "com.artcreativesolutions.glc",
+  "versionCode": 2003,
+  "versionName": "1.1.1",
+  "abi": "arm64-v8a",
+  "size": 23581222,
+  "sha256": "96c84298ce688741c994cb1e84e143582ba2cd6a4aca641e16db596fd02540ee",
+  "apkUrl": "https://glc-updates.vercel.app/glc-2003-96c84298ce68.apk",
+  "notes": "Améliorations et corrections de GLC."
+}
