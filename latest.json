@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "applicationId": "com.artcreativesolutions.glc",
-  "versionCode": 2004,
-  "versionName": "1.2.0",
+  "versionCode": 2005,
+  "versionName": "2.0.0",
   "abi": "arm64-v8a",
   "size": 23712430,
-  "sha256": "cad7360958654684b26723bd134f9657be123ac19ab3a7dd5d0bb748a656e888",
-  "apkUrl": "https://glc-updates.vercel.app/glc-2004-cad736095865.apk",
-  "notes": "Réaffectation administrative des commandes entre points de vente, avec conservation du commercial apporteur et recalcul du stock bonus compris.\nModification complète des informations de commande avec motif et historique.\nChat : réponses citées, mentions @, suppression de ses propres messages et épingles partagées.\nAucune migration de base de données nécessaire. Mettre à jour tous les téléphones avant d’utiliser les nouvelles actions du chat."
+  "sha256": "50faa4c3b29118f30db301d71c227c89ae789ae77d3b4284eba994885c46b702",
+  "apkUrl": "https://glc-updates.vercel.app/glc-2005-50faa4c3b291.apk",
+  "notes": "Base de données relationnelle : sociétés, sites, clients, équipes, produits, commandes et stocks dans des tables dédiées.\nSynchronisation des seules lignes modifiées après le premier chargement.\nÉcritures atomiques, contrôle du stock et dédoublonnage des opérations conservés.\nChat, licences, affectations entre sites, notifications et rapports conservés.\nCette version exige le schéma GLC v2. Installer cette mise à jour sur tous les téléphones après la remise à zéro."
 }
